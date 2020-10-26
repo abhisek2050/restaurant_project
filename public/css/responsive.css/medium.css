@@ -1,0 +1,27 @@
+@media(min-width:583px) and (max-width:768px){
+
+    .mobile__menu{
+        display: none;
+    }
+
+    .body__header header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /* opacity:0.5; */
+    }
+
+
+    .nav__list{
+        display: inline-block;
+        /* padding-top: 22px; */
+        padding-right: 15px;
+    }
+    .nav__link {
+        color: white;
+    }
+    .nav__link:hover{
+        color: red;
+    }
+}
